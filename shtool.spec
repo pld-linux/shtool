@@ -8,6 +8,7 @@ Group:		Development/Tools
 Source0:	ftp://ftp.gnu.org/gnu/shtool/%{name}-%{version}.tar.gz
 # Source0-md5:	72d92e38405a2547da1a41546f1b524c
 URL:		http://www.gnu.org/software/shtool/
+BuildRequires:	automake
 BuildRequires:	perl-tools-pod
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
