@@ -57,4 +57,5 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/%{name}
 %{_aclocaldir}/shtool.m4
 %{_mandir}/man1/shtool.1*
+%{_mandir}/man1/shtool-*.1*
 %{_mandir}/man1/shtoolize.1*
