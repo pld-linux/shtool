@@ -1,12 +1,12 @@
 Summary:	GNU shtool - the GNU Portable Shell Tool
 Summary(pl):	GNU shtool - przeno¶ne narzêdzie pow³okowe GNU
 Name:		shtool
-Version:	1.6.2
+Version:	2.0.1
 Release:	1
 License:	GPL
 Group:		Development/Tools
 Source0:	ftp://ftp.gnu.org/gnu/shtool/%{name}-%{version}.tar.gz
-# Source0-md5:	72d92e38405a2547da1a41546f1b524c
+# Source0-md5:	b434ed054fed53af682b52489c7931d4
 URL:		http://www.gnu.org/software/shtool/
 BuildRequires:	automake
 BuildRequires:	perl-tools-pod
