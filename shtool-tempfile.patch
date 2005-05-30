@@ -1,0 +1,27 @@
+diff -urN shtool-2.0.1.orig/sh.common shtool-2.0.1/sh.common
+--- shtool-2.0.1.orig/sh.common	2005-05-30 10:40:50.476241904 +0200
++++ shtool-2.0.1/sh.common	2005-05-30 10:41:22.420385656 +0200
+@@ -168,7 +168,13 @@
+     else
+         tmpdir="/tmp"
+     fi
+-    tmpfile="$tmpdir/.shtool.$$"
++    if mkdir "$tmpdir/.shtool.$$"; then
++        tmpfile="$tmpdir/.shtool.$$/shtool.tmp"
++	else
++        echo "$msgprefix:Error: failed to create temporary file" 1>&2
++        exit 1
++    fi
++    tmpfile="$tmpdir/.shtool.$$/shtool.tmp"
+     rm -f $tmpfile >/dev/null 2>&1
+     touch $tmpfile
+     chmod 600 $tmpfile
+@@ -188,7 +194,7 @@
+ shtool_exit () {
+     rc="$1"
+     if [ ".$gen_tmpfile" = .yes ]; then
+-        rm -f $tmpfile >/dev/null 2>&1 || true
++        rm -fr "$tmpdir/.shtool.$$" >/dev/null 2>&1 || true
+     fi
+     exit $rc
+ }
