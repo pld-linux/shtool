@@ -1,3 +1,5 @@
+# TODO
+# - security http://security.gentoo.org/glsa/glsa-200506-08.xml
 Summary:	GNU shtool - the GNU Portable Shell Tool
 Summary(pl):	GNU shtool - przeno¶ne narzêdzie pow³okowe GNU
 Name:		shtool
