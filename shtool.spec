@@ -27,8 +27,8 @@ GNU shtool to kompilacja ma³ych, ale bardzo stabilnych i przeno¶nych
 skryptów pow³oki w jedno narzêdzie pow³okowe. Wszystkie sk³adniki by³y
 u¿ywane z powodzeniem przez wiele lat w wielu projektach
 wolnodostêpnego oprogramowania. Scalony program shtool ma byæ u¿ywany
-wewn±trz drzer ¼róde³ innych pakietów wolnodostêpnego oprogramowania.
-Tam mo¿e przejmowaæ ró¿ne (zwykle nie przeno¶ne) zadania zwi±zane z
+wewn±trz drzew ¼róde³ innych pakietów wolnodostêpnego oprogramowania.
+Tam mo¿e przejmowaæ ró¿ne (zwykle nieprzeno¶ne) zadania zwi±zane z
 budowaniem i instalowaniem pakietu. W szczególno¶ci mo¿e zast±piæ
 stare mkdir.sh, install.sh i powi±zane skrypty.
 
