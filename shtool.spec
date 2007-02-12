@@ -1,5 +1,5 @@
 Summary:	GNU shtool - the GNU Portable Shell Tool
-Summary(pl):	GNU shtool - przeno¶ne narzêdzie pow³okowe GNU
+Summary(pl.UTF-8):   GNU shtool - przenoÅ›ne narzÄ™dzie powÅ‚okowe GNU
 Name:		shtool
 Version:	2.0.6
 Release:	1
@@ -22,15 +22,15 @@ of other free software packages. There it can overtake various
 of such a package. It especially can replace the old mkdir.sh,
 install.sh and related scripts.
 
-%description -l pl
-GNU shtool to kompilacja ma³ych, ale bardzo stabilnych i przeno¶nych
-skryptów pow³oki w jedno narzêdzie pow³okowe. Wszystkie sk³adniki by³y
-u¿ywane z powodzeniem przez wiele lat w wielu projektach
-wolnodostêpnego oprogramowania. Scalony program shtool ma byæ u¿ywany
-wewn±trz drzew ¼róde³ innych pakietów wolnodostêpnego oprogramowania.
-Tam mo¿e przejmowaæ ró¿ne (zwykle nieprzeno¶ne) zadania zwi±zane z
-budowaniem i instalowaniem pakietu. W szczególno¶ci mo¿e zast±piæ
-stare mkdir.sh, install.sh i powi±zane skrypty.
+%description -l pl.UTF-8
+GNU shtool to kompilacja maÅ‚ych, ale bardzo stabilnych i przenoÅ›nych
+skryptÃ³w powÅ‚oki w jedno narzÄ™dzie powÅ‚okowe. Wszystkie skÅ‚adniki byÅ‚y
+uÅ¼ywane z powodzeniem przez wiele lat w wielu projektach
+wolnodostÄ™pnego oprogramowania. Scalony program shtool ma byÄ‡ uÅ¼ywany
+wewnÄ…trz drzew ÅºrÃ³deÅ‚ innych pakietÃ³w wolnodostÄ™pnego oprogramowania.
+Tam moÅ¼e przejmowaÄ‡ rÃ³Å¼ne (zwykle nieprzenoÅ›ne) zadania zwiÄ…zane z
+budowaniem i instalowaniem pakietu. W szczegÃ³lnoÅ›ci moÅ¼e zastÄ…piÄ‡
+stare mkdir.sh, install.sh i powiÄ…zane skrypty.
 
 %prep
 %setup -q
