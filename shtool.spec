@@ -2,7 +2,7 @@ Summary:	GNU shtool - the GNU Portable Shell Tool
 Summary(pl.UTF-8):	GNU shtool - przenośne narzędzie powłokowe GNU
 Name:		shtool
 Version:	2.0.7
-Release:	1
+Release:	2
 License:	GPL
 Group:		Development/Tools
 Source0:	ftp://ftp.gnu.org/gnu/shtool/%{name}-%{version}.tar.gz
