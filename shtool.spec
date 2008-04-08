@@ -5,7 +5,7 @@ Version:	2.0.7
 Release:	2
 License:	GPL
 Group:		Development/Tools
-Source0:	ftp://ftp.gnu.org/gnu/shtool/%{name}-%{version}.tar.gz
+Source0:	http://ftp.gnu.org/gnu/shtool/%{name}-%{version}.tar.gz
 # Source0-md5:	9837056e5e3c3b903fa9381fb867d044
 URL:		http://www.gnu.org/software/shtool/
 BuildRequires:	automake
