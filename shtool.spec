@@ -10,9 +10,8 @@ Source0:	http://ftp.gnu.org/gnu/shtool/%{name}-%{version}.tar.gz
 URL:		http://www.gnu.org/software/shtool/
 BuildRequires:	automake
 BuildRequires:	perl-tools-pod
+BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
-
-%define		_debugsource_packages	0
 
 %description
 GNU shtool is a compilation of small but very stable and portable
