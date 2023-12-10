@@ -12,6 +12,8 @@ BuildRequires:	automake
 BuildRequires:	perl-tools-pod
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
+%define		_debugsource_packages	0
+
 %description
 GNU shtool is a compilation of small but very stable and portable
 shell scripts into a single shell tool. All ingredients were in
